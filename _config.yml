@@ -1,16 +1,16 @@
 # Configurations
-title:            Jekyll Gitbook
-longtitle:        Jekyll Gitbook
-author:           HE Tao
-email:            sighingnow@gmail.com
+title:            Mohism Thinking
+longtitle:        Mohism
+author:           Alexander
+email:            xalexuw@gmail.com
 description: >
-  Build Jekyll site with the GitBook style.
+  Science, Technology.
 
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://sighingnow.github.io'
-baseurl:          '/jekyll-gitbook'
+url:              'https://mohism-research.github.io'
+baseurl:          '/blog'
 rss:              RSS
 
 # bootstrap: use the remote theme for the site itself
