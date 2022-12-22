@@ -22,8 +22,12 @@ The general solution uses an array in VHDL to store consecutive position informa
 
 Actually we can choose the number of elements arbitrarily, but in our application, we need to simulate the scenario that 26 elements collected at the frequence of 2000 HZ, because our algorithm engineer thought the velocity calculaed under this case is good, and our system control frequence is 2000HZ. Therefore the velocity's calculation equation is below:
 
-$$ F_{System} = 2000 HZ $$
-$$ Velocity = \frac{P(25) - p(0)}{\frac{1}{F_{System}}*25} = (P(25) - p(0))*80 $$
+$$
+\begin{align*}
+& F_{System} = 2000 HZ \\
+& Velocity = \frac{P(25) - p(0)}{\frac{1}{F_{System}}*25} = (P(25) - p(0))*80 \\
+\end{align*}
+$$
 
 If we want to completely mimic the computation above, we have to know how many times the system control frequence over the encoder sample frequence. This number is calculated below:
 
