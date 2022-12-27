@@ -1,3 +1,11 @@
+---
+title: Using FPGA to implement Encoder velocity Calculation
+author: Alexander
+date: 2022-12-22
+category: Blog
+layout: post
+---
+
 # Principle
 
 We usually use a general mathematical eqation to calculate the velocity:
